@@ -1,3 +1,11 @@
+**IMPORTANT**:
+
+This fork replaces lodash 3 with lodash 4 to avoid including it twice in bundles also dependencies were moved as peerDependencies
+
+- lodash@4.17.3
+- react-addons-transition-group@15.4.1
+- velocity-animate@1.4.0
+
 # velocity-react
 
 [React](http://facebook.github.io/react/) components for interacting with the

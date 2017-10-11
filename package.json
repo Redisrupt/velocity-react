@@ -1,6 +1,6 @@
 {
-  "name": "velocity-react",
-  "version": "1.3.3",
+  "name": "@redisrupt/velocity-react",
+  "version": "1.3.31",
   "description": "React components to wrap Velocity animations",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twitter-fabric/velocity-react.git"
+    "url": "https://github.com/Redisrupt/velocity-react.git"
   },
   "keywords": [
     "velocity",
@@ -20,21 +20,20 @@
   "author": "Google Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twitter-fabric/velocity-react/issues"
+    "url": "https://github.com/Redisrupt/velocity-react/issues"
   },
-  "homepage": "https://github.com/twitter-fabric/velocity-react#readme",
+  "homepage": "https://github.com/Redisrupt/velocity-react#readme",
   "lint-staged": {
     "*.js": "eslint --quiet"
   },
-  "dependencies": {
-    "lodash": "^3.10.1",
-    "prop-types": "^15.5.8",
-    "react-transition-group": "^1.1.2",
-    "velocity-animate": "^1.4.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",
-    "react-dom": "^15.3.0 || ^16.0.0"
+    "react-dom": "^15.3.0 || ^16.0.0",
+    "lodash": "4.17.3",
+    "prop-types": "^15.6.0",
+    "react-transition-group": "^1.2.1",
+    "velocity-animate": "^1.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -55,14 +54,18 @@
     "husky": "^0.14.3",
     "lint-staged": "^4.2.3",
     "prettier": "^1.7.0",
-    "react": "^15.5.0",
-    "react-dom": "^15.5.0",
     "react-hot-loader": "^1.2.9",
     "react-tween-state": "^0.1.3",
     "style-loader": "^0.12.3",
     "twemoji": "^1.4.1",
     "underscore.string": "^3.2.0",
     "webpack": "^1.12.0",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^1.10.1",
+    "react": "^15.3.0 || ^16.0.0",
+    "react-dom": "^15.3.0 || ^16.0.0",
+    "lodash": "4.17.3",
+    "prop-types": "^15.6.0",
+    "react-transition-group": "^1.2.1",
+    "velocity-animate": "^1.4.0"
   }
 }
